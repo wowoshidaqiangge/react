@@ -1,0 +1,67 @@
+@import "../../static/css/common.scss";
+.backTop {
+	& .ant-back-top {
+		right: 30px;
+		bottom: 200px;
+	}
+	& .backTopIcon {
+		width: 40px;
+		height: 40px;
+		border: 1px solid #eeeeee;
+		border-radius: 1px;
+		background: url(../../static/images/common/backTop/backTop.png) no-repeat;
+		cursor: pointer;
+		-moz-transition: background-position .3s;
+		transition: background-position .3s;
+		-ms-transition: background-position .3s;
+		-o-moz-transition: background-position .3s;
+		-webkit-moz-transition: background-position .3s;
+	}
+	& .appTop {
+		background-position: 0 0;
+	    &:hover {
+	    	background-position: 0 -40px;
+	    }
+	}
+	& .wechatTop {
+		background-position: 0 -80px;
+	    &:hover {
+	    	background-position: 0 -120px;
+	    }
+	}
+	& .customTop {
+		background-position: 0 -160px;
+	    &:hover {
+	    	background-position: 0 -200px;
+	    }
+	}
+	& .top {
+	    background-position: 0 -240px;
+	    &:hover {
+	    	background-position: 0 -280px;
+	    }
+	}
+}
+.ant-tooltip-placement-left .ant-tooltip-arrow, .ant-tooltip-placement-leftTop .ant-tooltip-arrow, .ant-tooltip-placement-leftBottom .ant-tooltip-arrow {
+	border: none;
+}
+.ant-tooltip-inner {
+	background-color: #fff;
+	color: $smallColor;
+	& img {
+		width: 130px;
+		height: 130px;
+	}
+	& ul li {
+		margin: 0 0 20px;
+		& p {
+			color: #333;
+			text-align: left;
+		}
+	}
+	& p {
+		font-size: 12px;
+		color: #000;
+		text-align: center;
+	}
+}

@@ -1,0 +1,8 @@
+@import "../../static/css/common.scss";
+.safe {
+	.ant-tabs-nav {
+		& .ant-tabs-tab {
+			width: 25%;
+		}
+	}
+}

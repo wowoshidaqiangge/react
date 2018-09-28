@@ -1,0 +1,85 @@
+@import "../../static/css/common.scss";
+.forget {
+	background-color: $bgColor;
+	& .subLogin {
+		padding: 20px 0 40px;
+		& .bgLogin {
+			background-color: #fff;
+			padding: 0 0 240px;
+			& h4 {
+				font-size: 18px;
+				color: $bigColor;
+				padding: 15px 0 11px 20px;
+				border-bottom: 1px solid $borderColor;
+				& span {
+					background-color: $leftColor;
+				    width: 4px;
+				    height: 16px;
+				    display: inline-block;
+				    margin: -3px 8px 0 0;
+				    vertical-align: middle;
+				}
+			}
+			& .submit {
+				margin: 80px 0 0;
+				& h5 {
+					font-size: 18px;
+					color: $bigColor;
+					padding: 0 0 14px;
+				}
+				& p {
+					font-size: 14px;
+					color: $bigColor;
+					padding: 0 0 38px;
+				}
+				& .ant-form-item {
+				    transition: none;
+				    & .ant-col-sm-9 {
+						margin: 0 16px 0 0;
+						& label {
+							color: $bigColor;
+							&:before {
+								content: '';
+							}
+						}	
+					}
+					& .ant-col-sm-8 {
+						text-align: left;
+						& input {
+						    font-size: 16px;
+							height: 36px;
+							line-height: 36px;
+						    border: 1px solid $borderColor;
+						    &:focus {
+						    	box-shadow: none;
+						    }
+						}
+					}
+					& .ant-checkbox {
+						margin: -4px 0 0 120px;
+					}
+				}
+				& .remember {
+					& .ant-form-explain {
+						margin: 0 0 0 -170px;
+					}
+				}
+				& .submitBtn {
+					& .ant-btn-primary {
+						font-size: 16px;
+					    color: #fff;
+					    background-color: #EF7A46;
+					    width: 320px;
+					    height: 40px;
+					    line-height: 40px;
+					    border: none;
+					    border-radius: 4px;
+					    -webkit-border-radius: 4px;
+					    -o-border-radius: 4px;
+					    -moz-border-radius: 4px;
+					}
+				}
+			}
+		}
+	}
+}@import "../../static/css/common.scss";

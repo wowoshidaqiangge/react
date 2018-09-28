@@ -1,0 +1,113 @@
+@import "../../static/css/common.scss";
+.indexList {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	& .ant-carousel {
+		& .slick-slide {
+			float: left;
+			& img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		& .slick-dots {
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			margin: 0 0 0 -44px;
+			& li {
+				float: left;	
+				&.slick-active {
+					& button {
+						opacity: 1;
+					}
+				}		    
+			    & button {
+			    	background: #fff;
+				    opacity: .14;
+				    margin: 0 0 0 10px;
+			    	width: 44px;
+			    	height: 3px;
+			    	font-size: 0;
+			    	border: none;
+			    }
+			}
+		}
+	}
+	& .banner {
+		position: relative;
+	}
+	& .subBanner {
+		background-color: #fff;
+		width: 305px;
+		height: 257px;
+		padding: 24px 0;
+		position: absolute;
+		right: 0;
+		bottom: 5px;
+		z-index: 8;
+		& p {
+			color: $blockColor;
+			&.one {
+				font-size: 18px;
+			}
+			&.two {
+				font-size: 36px;
+				color: $hoverColor;
+			}
+			&.three {
+				padding: 0 0 6px;
+				& img {
+					width: 120px;
+					height: 120px;
+				}
+			}
+			&.four {
+				font-size: 12px;
+			}
+		}
+	}
+}
+.partnerList {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	& .ant-carousel {
+		& .slick-track {
+			width: 220px;
+			height: 100px;
+			float: left;
+			& .slick-slide {
+				float: left;
+				& img {
+					vertical-align: middle;
+					
+				}
+			}
+			.slick-dots {
+				position: absolute;
+				bottom: 20px;
+				left: 50%;
+				margin: 0 0 0 -44px;
+				& li {
+					float: left;	
+					&.slick-active {
+						& button {
+							opacity: 1;
+						}
+					}		    
+				    & button {
+				    	background: #fff;
+					    opacity: .14;
+					    margin: 0 0 0 10px;
+				    	width: 44px;
+				    	height: 3px;
+				    	font-size: 0;
+				    	border: none;
+				    }
+				}
+			}
+		}
+	}
+}
